@@ -1,0 +1,78 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{cc}}
+\hline\hline
+                    &\multicolumn{2}{c}{(1)}           &\multicolumn{2}{c}{(2)}           &\multicolumn{2}{c}{(3)}           \\
+                    &\multicolumn{2}{c}{share\_edu\_inc} &\multicolumn{2}{c}{share\_edu\_inc} &\multicolumn{2}{c}{share\_edu\_inc} \\
+\hline
+centered\_quarter    &   -0.000681         &     (-1.80)&   -0.000745         &     (-1.94)&           0         &         (.)\\
+Buddhist            &           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Christian           &    -0.00795\sym{*}  &     (-1.96)&    -0.00765         &     (-1.89)&           0         &         (.)\\
+Hindu               &      0.0327\sym{***}&      (5.63)&      0.0331\sym{***}&      (5.74)&           0         &         (.)\\
+Jain                &      0.0590         &      (1.65)&      0.0598         &      (1.68)&           0         &         (.)\\
+Khasi               &      0.0134         &      (0.96)&      0.0141         &      (1.01)&           0         &         (.)\\
+Muslim              &      0.0116         &      (0.70)&      0.0119         &      (0.72)&           0         &         (.)\\
+Other Religion      &     -0.0142         &     (-0.61)&     -0.0152         &     (-0.65)&           0         &         (.)\\
+Religion not stated &     -0.0966         &     (-0.81)&      -0.103         &     (-0.86)&           0         &         (.)\\
+Sikh                &       0.145         &      (1.36)&       0.146         &      (1.38)&           0         &         (.)\\
+Buddhist $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Christian $\times$ centered\_quarter&    -0.00113\sym{*}  &     (-2.04)&    -0.00107         &     (-1.91)&    -0.00164\sym{**} &     (-2.78)\\
+Hindu $\times$ centered\_quarter&     0.00656\sym{***}&      (4.57)&     0.00660\sym{***}&      (4.65)&     0.00616\sym{***}&      (4.31)\\
+Jain $\times$ centered\_quarter&      0.0152         &      (1.46)&      0.0153         &      (1.47)&      0.0148         &      (1.42)\\
+Khasi $\times$ centered\_quarter&     0.00387         &      (0.87)&     0.00390         &      (0.87)&     0.00376         &      (0.83)\\
+Muslim $\times$ centered\_quarter&     0.00489         &      (1.53)&     0.00490         &      (1.53)&     0.00427         &      (1.34)\\
+Other Religion $\times$ centered\_quarter&    -0.00651\sym{**} &     (-2.67)&    -0.00662\sym{**} &     (-2.67)&    -0.00795\sym{**} &     (-2.79)\\
+Religion not stated $\times$ centered\_quarter&     0.00741\sym{*}  &      (2.53)&     0.00457         &      (1.61)&     0.00616         &      (1.48)\\
+Sikh $\times$ centered\_quarter&     -0.0245         &     (-0.66)&     -0.0244         &     (-0.66)&     -0.0250         &     (-0.68)\\
+post\_cutoff=0       &           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+post\_cutoff=1       &     -0.0125\sym{***}&     (-9.22)&     -0.0125\sym{***}&     (-9.17)&           0         &         (.)\\
+post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+post\_cutoff=1 $\times$ centered\_quarter&    0.000548         &      (1.42)&    0.000655         &      (1.64)&           0         &         (.)\\
+Buddhist $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Buddhist $\times$ post\_cutoff=1&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Christian $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Christian $\times$ post\_cutoff=1&    -0.00337         &     (-1.59)&    -0.00305         &     (-1.43)&   -0.000732         &     (-0.32)\\
+Hindu $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Hindu $\times$ post\_cutoff=1&     -0.0771\sym{***}&     (-8.42)&     -0.0769\sym{***}&     (-8.47)&     -0.0754\sym{***}&     (-8.46)\\
+Jain $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Jain $\times$ post\_cutoff=1&      -0.122\sym{**} &     (-2.74)&      -0.122\sym{**} &     (-2.75)&      -0.121\sym{**} &     (-2.73)\\
+Khasi $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Khasi $\times$ post\_cutoff=1&     -0.0238         &     (-1.85)&     -0.0237         &     (-1.85)&     -0.0268\sym{*}  &     (-2.08)\\
+Muslim $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Muslim $\times$ post\_cutoff=1&     -0.0526\sym{**} &     (-3.12)&     -0.0522\sym{**} &     (-3.10)&     -0.0506\sym{**} &     (-3.02)\\
+Other Religion $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Other Religion $\times$ post\_cutoff=1&     -0.0245\sym{***}&     (-3.54)&     -0.0245\sym{***}&     (-3.57)&     -0.0212\sym{**} &     (-3.16)\\
+Religion not stated $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Religion not stated $\times$ post\_cutoff=1&     -0.0743         &     (-1.80)&     -0.0715         &     (-1.74)&     -0.0807\sym{*}  &     (-1.97)\\
+Sikh $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Sikh $\times$ post\_cutoff=1&      -0.276\sym{**} &     (-2.59)&      -0.276\sym{**} &     (-2.59)&      -0.274\sym{*}  &     (-2.57)\\
+Buddhist $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Buddhist $\times$ post\_cutoff=1 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Christian $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Christian $\times$ post\_cutoff=1 $\times$ centered\_quarter&     0.00165\sym{**} &      (2.82)&     0.00149\sym{*}  &      (2.54)&     0.00203\sym{**} &      (3.28)\\
+Hindu $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Hindu $\times$ post\_cutoff=1 $\times$ centered\_quarter&    -0.00139         &     (-0.98)&    -0.00149         &     (-1.06)&    -0.00103         &     (-0.71)\\
+Jain $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Jain $\times$ post\_cutoff=1 $\times$ centered\_quarter&    0.000373         &      (0.03)&    0.000209         &      (0.02)&    0.000792         &      (0.07)\\
+Khasi $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Khasi $\times$ post\_cutoff=1 $\times$ centered\_quarter&    -0.00656         &     (-1.46)&    -0.00686         &     (-1.53)&    -0.00616         &     (-1.35)\\
+Muslim $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Muslim $\times$ post\_cutoff=1 $\times$ centered\_quarter&    -0.00207         &     (-0.63)&    -0.00216         &     (-0.66)&    -0.00141         &     (-0.43)\\
+Other Religion $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Other Religion $\times$ post\_cutoff=1 $\times$ centered\_quarter&      0.0166\sym{***}&      (5.04)&      0.0171\sym{***}&      (5.07)&      0.0192\sym{***}&      (5.13)\\
+Religion not stated $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Religion not stated $\times$ post\_cutoff=1 $\times$ centered\_quarter&     0.00963         &      (1.00)&      0.0143         &      (1.51)&      0.0136         &      (1.28)\\
+Sikh $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Sikh $\times$ post\_cutoff=1 $\times$ centered\_quarter&      0.0275         &      (0.81)&      0.0274         &      (0.80)&      0.0279         &      (0.82)\\
+AGE\_YRS             &                     &            &  -0.0000489\sym{***}&     (-3.90)&  -0.0000462\sym{***}&     (-3.65)\\
+LITERACY            &                     &            &     0.00288\sym{***}&      (4.11)&     0.00142         &      (1.92)\\
+M\_EXP\_INTERNET      &                     &            &  -0.0000338         &     (-1.90)&  -0.0000351\sym{*}  &     (-1.97)\\
+M\_EXP\_RELIGIOUS\_OBLIGATIONS&                     &            &  0.00000884\sym{*}  &      (2.08)&  0.00000759         &      (1.83)\\
+Constant            &      0.0702\sym{***}&     (23.35)&      0.0655\sym{***}&     (20.59)&      0.0932\sym{***}&     (16.49)\\
+\hline
+Observations        &    13756415         &            &    13756415         &            &    13756415         &            \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}

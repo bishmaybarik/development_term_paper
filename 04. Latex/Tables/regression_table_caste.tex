@@ -1,0 +1,60 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{cc}}
+\hline\hline
+                    &\multicolumn{2}{c}{(1)}           &\multicolumn{2}{c}{(2)}           &\multicolumn{2}{c}{(3)}           \\
+                    &\multicolumn{2}{c}{share\_edu\_inc} &\multicolumn{2}{c}{share\_edu\_inc} &\multicolumn{2}{c}{share\_edu\_inc} \\
+\hline
+centered\_quarter    &     0.00577         &      (0.82)&     0.00572         &      (0.81)&           0         &         (.)\\
+Intermediate Caste  &           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Not Stated          &      -0.127         &     (-1.71)&      -0.128         &     (-1.72)&      -0.128         &     (-1.69)\\
+OBC                 &      0.0440         &      (0.84)&      0.0444         &      (0.85)&      0.0465         &      (0.88)\\
+SC                  &    -0.00106         &     (-0.03)&   -0.000578         &     (-0.02)&     0.00224         &      (0.07)\\
+ST                  &    -0.00419         &     (-0.12)&    -0.00406         &     (-0.12)&    -0.00463         &     (-0.13)\\
+Upper Caste         &     -0.0529         &     (-0.70)&     -0.0525         &     (-0.69)&     -0.0525         &     (-0.69)\\
+Intermediate Caste $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Not Stated $\times$ centered\_quarter&     -0.0522         &     (-1.32)&     -0.0524         &     (-1.32)&     -0.0526         &     (-1.33)\\
+OBC $\times$ centered\_quarter&     0.00200         &      (0.28)&     0.00206         &      (0.28)&     0.00240         &      (0.33)\\
+SC $\times$ centered\_quarter&    -0.00372         &     (-0.48)&    -0.00367         &     (-0.47)&    -0.00324         &     (-0.42)\\
+ST $\times$ centered\_quarter&     0.00176         &      (0.24)&     0.00177         &      (0.24)&     0.00177         &      (0.25)\\
+Upper Caste $\times$ centered\_quarter&   -0.000927         &     (-0.12)&   -0.000929         &     (-0.12)&   -0.000694         &     (-0.09)\\
+post\_cutoff=0       &           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+post\_cutoff=1       &      -0.106\sym{***}&     (-3.85)&      -0.106\sym{***}&     (-3.84)&           0         &         (.)\\
+post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+post\_cutoff=1 $\times$ centered\_quarter&    -0.00270         &     (-0.36)&    -0.00265         &     (-0.35)&           0         &         (.)\\
+Intermediate Caste $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Intermediate Caste $\times$ post\_cutoff=1&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Not Stated $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Not Stated $\times$ post\_cutoff=1&      0.0745         &      (1.39)&      0.0750         &      (1.40)&      0.0737         &      (1.38)\\
+OBC $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+OBC $\times$ post\_cutoff=1&      0.0176         &      (0.61)&      0.0176         &      (0.61)&      0.0162         &      (0.56)\\
+SC $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+SC $\times$ post\_cutoff=1&      0.0450         &      (1.54)&      0.0449         &      (1.53)&      0.0431         &      (1.47)\\
+ST $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+ST $\times$ post\_cutoff=1&      0.0281         &      (0.98)&      0.0283         &      (0.99)&      0.0275         &      (0.96)\\
+Upper Caste $\times$ post\_cutoff=0&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Upper Caste $\times$ post\_cutoff=1&     -0.0138         &     (-0.35)&     -0.0139         &     (-0.35)&     -0.0143         &     (-0.36)\\
+Intermediate Caste $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Intermediate Caste $\times$ post\_cutoff=1 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Not Stated $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Not Stated $\times$ post\_cutoff=1 $\times$ centered\_quarter&      0.0438         &      (1.30)&      0.0440         &      (1.30)&      0.0446         &      (1.31)\\
+OBC $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+OBC $\times$ post\_cutoff=1 $\times$ centered\_quarter&    0.000247         &      (0.03)&    0.000173         &      (0.02)&   -0.000105         &     (-0.01)\\
+SC $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+SC $\times$ post\_cutoff=1 $\times$ centered\_quarter&     0.00270         &      (0.33)&     0.00264         &      (0.32)&     0.00222         &      (0.27)\\
+ST $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+ST $\times$ post\_cutoff=1 $\times$ centered\_quarter&     0.00393         &      (0.50)&     0.00392         &      (0.50)&     0.00416         &      (0.53)\\
+Upper Caste $\times$ post\_cutoff=0 $\times$ centered\_quarter&           0         &         (.)&           0         &         (.)&           0         &         (.)\\
+Upper Caste $\times$ post\_cutoff=1 $\times$ centered\_quarter&     0.00418         &      (0.53)&     0.00419         &      (0.54)&     0.00385         &      (0.49)\\
+AGE\_YRS             &                     &            &  -0.0000488\sym{***}&     (-3.85)&  -0.0000461\sym{***}&     (-3.61)\\
+LITERACY            &                     &            &     0.00293\sym{***}&      (4.11)&     0.00146         &      (1.95)\\
+M\_EXP\_INTERNET      &                     &            &  -0.0000377\sym{*}  &     (-2.10)&  -0.0000390\sym{*}  &     (-2.17)\\
+M\_EXP\_RELIGIOUS\_OBLIGATIONS&                     &            &  0.00000807         &      (1.95)&  0.00000683         &      (1.68)\\
+Constant            &      0.0990\sym{***}&      (3.61)&      0.0944\sym{***}&      (3.43)&      0.0359\sym{***}&      (3.93)\\
+\hline
+Observations        &    13756415         &            &    13756415         &            &    13756415         &            \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
